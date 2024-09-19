@@ -18,11 +18,12 @@
 <body>
     <table>
         <?php
-        $count = 7;
-        $count2 = 7;
-        for ($i = 0; $i < $count; $i++) {
+        $n = 7;
+        $m = 7;
+
+        for ($i = 0; $i < $n; $i++) {
             echo "<tr>";
-            for ($j = 0; $j < $count2; $j++) {
+            for ($j = 0; $j < $m; $j++) {
                 $res = $i + $j;
                 echo "<td>$res</td>";
             }

@@ -17,8 +17,8 @@
     <table>
         <tr>
             <?php
-            $count = 7;
-            for ($i = 0; $i < $count; $i++) {
+            $n = 7;
+            for ($i = 0; $i < $n; $i++) {
                 echo "<td>$i</td>";
             }
             ?>

@@ -17,25 +17,21 @@
 
 <body>
     <table>
-        <tr>
-            <?php
+        <?php
+        $n = 7;
+        echo "<tr>";
+        for ($i = 0; $i < $n; $i++) {
+            $char = chr(65 + $i);
+            echo "<td>$char</td>";
+        }
+        echo "</tr>";
 
-            $count = 7;
-            for ($i = 0; $i < $count; $i++) {
-                $char = chr(65 + $i);
-                echo "<td>$char</td>";
-            }
-            ?>
-        </tr>
-        <tr>
-            <?php
-
-            $count = 7;
-            for ($i = 0; $i < $count; $i++) {
-                echo "<td>$i</td>";
-            }
-            ?>
-        </tr>
+        echo "<tr>";
+        for ($i = 0; $i < $n; $i++) {
+            echo "<td>$i</td>";
+        }
+        echo "<tr>";
+        ?>
     </table>
 </body>
 
